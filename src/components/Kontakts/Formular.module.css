@@ -1,0 +1,65 @@
+.input{
+    padding: 5px;
+    color: #6f4d2d;
+}
+
+input{
+    color: #6f4d2d;
+   padding: 10px 400px 10px 5px;
+}
+
+textarea{
+
+    padding: 30px 410px 30px 5px;
+    color: #6f4d2d;
+}
+.btn {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    clear: both;
+
+}
+
+h1{
+
+    color: #6f4d2d;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.textError{
+    color: red;
+}
+/*
+
+input:invalid:not(:placeholder-shown) {border-color: red;}
+input:valid:not(:placeholder-shown) {border-color: green;}
+*/
+
+.hasError{
+    border: 1px solid red;
+}
+
+.checkbox1 input{
+    float: left;
+margin-top: 4px;
+    margin-left: 5px;
+
+}
+
+.textErrorChekbox{
+
+    color: red;
+}
+
+
+.checkboxText{
+
+    padding-left: 25px;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    color: #6f4d2d;
+}

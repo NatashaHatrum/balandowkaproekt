@@ -1,0 +1,40 @@
+{
+  "name": "parking",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "13289e807e02b1d46f2fe10d81d6fba6",
+      "css": "location-outline",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "a19527dd18f0e45e597e8a2622604d14",
+      "css": "wifi",
+      "code": 59394,
+      "src": "typicons"
+    },
+    {
+      "uid": "fc455b9530e0b37facc289f42a120fdd",
+      "css": "commerical-building",
+      "code": 59409,
+      "src": "maki"
+    },
+    {
+      "uid": "26eb5e234f87bad251fdd8e285b6fae7",
+      "css": "product-hunt",
+      "code": 62088,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "381da2c2f7fd51f8de877c044d7f439d",
+      "css": "picture",
+      "code": 59392,
+      "src": "fontawesome"
+    }
+  ]
+}

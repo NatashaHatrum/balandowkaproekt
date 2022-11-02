@@ -1,0 +1,41 @@
+/*
+.carousel {
+    width: 800px !important;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+
+}
+.carousel-inner img {
+    width: 800px !important;
+    margin: 0 auto;
+    interval : false !important;
+}
+.carousel-indicators li {
+    border-color: #000;
+}
+.carousel-indicators .active {
+    background-color: #000;
+}
+*/
+.slick-slide {
+    width: 257px;
+
+    padding-right: 50px;
+    padding-top:20px;
+    float: left;
+
+
+}
+
+.slick-prev {
+    left: 30px !important;
+    z-index:1;
+}
+
+.slick-next {
+    right: 80px !important;
+
+}
+
+

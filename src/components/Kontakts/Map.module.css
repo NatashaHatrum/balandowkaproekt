@@ -1,0 +1,22 @@
+
+#map {
+    width: 600px;
+    height: 400px;
+}
+
+.leaflet-container {
+    height: 400px;
+    width: 800px;
+
+}
+
+.containerMap{
+    height: 400px;
+    width: 800px;
+
+}
+
+.main {
+   width: 100vw;
+    height: 600px;
+}
