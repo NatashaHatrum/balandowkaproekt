@@ -8,7 +8,8 @@ const AboutUs = () => {
     return (
 <div>
         <div className={classes.container}>
-            <div className={classes.fotoGlowne}><img src={fotoGlowne}/>
+            <div className={classes.fotoGlowne}>
+                <img src={fotoGlowne}/>
                 <h2>O NAS</h2>
                 <h3> Zobacz naszą historię</h3>
             </div>

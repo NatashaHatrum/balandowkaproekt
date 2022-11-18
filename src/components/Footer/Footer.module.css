@@ -9,7 +9,7 @@ clear: both;
     padding-top: 22px;
     padding-right: 20px;
     text-transform: uppercase;
-
+    color: #3c3c3c;
 
 }
 
@@ -17,13 +17,13 @@ clear: both;
     font-size: 20px;
     padding-top: 15px;
     font-family: 'Cormorant Garamond', serif;
-
+    color: #3c3c3c;
 }
- a{
+.menu a{
     color: #3c3c3c;
   }
 
- a:hover{
+.menu a:hover{
     color: black;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ clear: both;
 .content{
     display: flex;
     justify-content: center;
-
+    color: #3c3c3c;
 }
 
 .contackt{
@@ -45,19 +45,46 @@ clear: both;
     font-size: 25px;
 }
 
-.inst{
+.inst a{
     float: left;
     padding-right: 20px;
-
+    color: #3c3c3c;
 }
 
-.fb{
+.fb a{
     float: left;
-
+    color: #3c3c3c;
 }
+.fb a:hover{
+    color: black;
+    text-decoration: none;
+}
+.inst a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
 
 .social{
     padding-top: 10px;
     text-transform: uppercase;
     padding-bottom: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+.menu  {
+    display: none;
+}
+    .contackt{
+        font-size: 15px;
+     text-align: center;
+    }
+    .kontakt{
+        padding-left: 0;
+    }
+}
+
+
+
+

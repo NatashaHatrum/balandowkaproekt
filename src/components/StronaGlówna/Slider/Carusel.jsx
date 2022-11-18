@@ -14,9 +14,9 @@ const MotionButton = React.forwardRef((props, ref) => (
         size="lg"
         ref={ref}
         {...props}>{props.children}</Button>
-))
+));
 
-const MotionComponent = motion(MotionButton)
+const MotionComponent = motion(MotionButton);
 
 function Carusel() {
 
@@ -41,12 +41,11 @@ function Carusel() {
 
     return (
 
-        <Carousel {...props} >
+        <Carousel {...props} className={classes.carusel} >
 
             <Carousel.Item className='vh-100'>
                 <img
                     className='w-100   d-inline-block '
-
                     src={foto1}
                     alt="First slide"
                 />
@@ -73,7 +72,8 @@ function Carusel() {
                                 time: [0, 18000],
                             }}
 
-                            className={classes.flexible}>Witamy drogi gościu</motion.h3>
+                            className={classes.flexible}>Witamy drogi gościu
+                        </motion.h3>
                         <motion.p
                             style={{
                                 position: 'absolute',
@@ -103,7 +103,8 @@ function Carusel() {
                                 time: [0, 18000],
 
                             }}>
-                            BAłANDÓWKA - to twoje przytulne miejsce wypoczynku w sercu Tatr</motion.p>
+                            BAłANDÓWKA - to twoje przytulne miejsce wypoczynku w sercu Tatr
+                        </motion.p>
                         <MotionComponent
                             initial={'hidden'}
                             animate={'visible'}
@@ -153,10 +154,11 @@ function Carusel() {
                                 duration: 2,
                                 time: [0, 18000],
 
-                            clamp: false
+                                clamp: false
                             }}
 
-                            className={classes.flexible}>Wystarczy</motion.h3>
+                            className={classes.flexible}>Wystarczy
+                        </motion.h3>
                         <motion.p
                             style={{
                                 position: 'absolute',
@@ -183,7 +185,8 @@ function Carusel() {
                                 duration: 2,
                                 time: [0, 18000],
 
-                            }}>wybrać pokoje i zarezerwować</motion.p>
+                            }}>wybrać pokoje i zarezerwować
+                        </motion.p>
                         <MotionComponent
                             initial={'hidden'}
                             animate={'visible'}
@@ -232,7 +235,8 @@ function Carusel() {
                                 time: [0, 18000],
                             }}
 
-                            className={classes.flexible}>Jeśli masz</motion.h3>
+                            className={classes.flexible}>Jeśli masz
+                        </motion.h3>
                         <motion.p
                             style={{
                                 position: 'absolute',
@@ -273,7 +277,7 @@ function Carusel() {
                             }}
 
                             onClick={event => window.location.href = '/kontakt'}>
-                           Skontaktuj się z nami!
+                            Skontaktuj się z nami!
                         </MotionComponent>
                     </div>
                 </Carousel.Caption>

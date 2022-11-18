@@ -48,11 +48,11 @@ import Foto43 from './../Assets/img/RoomsImg/PoPravaj/IMG_4831.jpg'
 import fotoGlowne from "../Assets/img/GlowneFotogslerea.jpg";
 import Footer from "../Footer/Footer";
 
+const FotoTable = [Foto1, Foto2, Foto3, Foto4, Foto5, Foto6, Foto7, Foto8, Foto9, Foto10, Foto11, Foto12, Foto13, Foto14, Foto15, Foto16, Foto17, Foto18, Foto19, Foto20, Foto21, Foto22, Foto23, Foto24, Foto25, Foto27, Foto28, Foto29, Foto30, Foto31, Foto32, Foto33, Foto34, Foto35, Foto36, Foto38, Foto39, Foto40, Foto41, Foto42, Foto43];
 
 const Fotogalerea = () => {
     const onBeforeSlide = (detail) => {
-        const {index, prevIndex} = detail;
-        console.log(index, prevIndex)
+        const {} = detail;
     };
     const props = {
 
@@ -64,7 +64,6 @@ const Fotogalerea = () => {
         currentPagerPosition: 'right',
         thumbnail: true,
         animateThumb: true,
-
 
     };
 
@@ -85,162 +84,15 @@ const Fotogalerea = () => {
                                   elementClassNames="custom-wrapper-class"
                                   onBeforeSlide={onBeforeSlide}
                     >
+                        {FotoTable.map((el, index) =>
+                            <a key={index} className={classes.link} href={el}>
+                                <figure className={classes.galereaItem}>
+                                    <img src={el}/>
+                                    <h3>&#128269;</h3>
+                                </figure>
+                            </a>
+                        )}
 
-
-                        <a className={classes.link} href={Foto1}>
-                            <figure className={classes.galereaItem}>
-                                <img src={Foto1}/>
-                                <h3>&#128269;</h3>
-                            </figure>
-
-                        </a>
-
-
-                        <a className={classes.link} href={Foto2}>
-                            <figure className={classes.galereaItem}>
-                                <img src={Foto2}/>
-                                <h3>&#128269;</h3>
-                            </figure>
-                        </a>
-
-                        <a className={classes.link} href={Foto3}>
-                            <figure className={classes.galereaItem}>
-                                <img src={Foto3}/>
-                                <h3>&#128269;</h3>
-                            </figure>
-                        </a>
-                        <a className={classes.link} href={Foto4}>
-                            <figure className={classes.galereaItem}>
-                                <img src={Foto4}/>
-                                <h3>&#128269;</h3>
-                            </figure>
-                        </a>
-
-                        <a className={classes.link} href={Foto5}>
-                            <figure className={classes.galereaItem}>
-                                <img src={Foto5}/>
-                                <h3>&#128269;</h3>
-                            </figure>
-                        </a>
-                        <a className={classes.link} href={Foto6}>
-                            <figure className={classes.galereaItem}>
-                                <img src={Foto6}/>
-                                <h3>&#128269;</h3>
-                            </figure>
-                        </a>
-                        <a className={classes.link} href={Foto7}>
-                            <figure className={classes.galereaItem}>
-                                <img src={Foto7}/>
-                                <h3>&#128269;</h3>
-                            </figure>
-                        </a>
-                        <a className={classes.link} href={Foto8}>
-                            <figure className={classes.galereaItem}><img src={Foto8}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto9}>
-                            <figure className={classes.galereaItem}><img src={Foto9}/> <h3>&#128269;</h3></figure>
-                        </a>
-
-                        <a className={classes.link} href={Foto10}>
-                            <figure className={classes.galereaItem}><img src={Foto10}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto11}>
-                            <figure className={classes.galereaItem}><img src={Foto11}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto12}>
-                            <figure className={classes.galereaItem}><img src={Foto12}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto13}>
-                            <figure className={classes.galereaItem}><img src={Foto13}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto14}>
-                            <figure className={classes.galereaItem}><img src={Foto14}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto15}>
-                            <figure className={classes.galereaItem}><img src={Foto15}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto16}>
-                            <figure className={classes.galereaItem}><img src={Foto16}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto17}>
-                            <figure className={classes.galereaItem}><img src={Foto17}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto18}>
-                            <figure className={classes.galereaItem}><img src={Foto18}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto19}>
-                            <figure className={classes.galereaItem}><img src={Foto19}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto20}>
-                            <figure className={classes.galereaItem}><img src={Foto20}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto21}>
-                            <figure className={classes.galereaItem}><img src={Foto21}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto22}>
-                            <figure className={classes.galereaItem}><img src={Foto22}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto23}>
-                            <figure className={classes.galereaItem}><img src={Foto23}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto24}>
-                            <figure className={classes.galereaItem}><img src={Foto24}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto44}>
-                            <figure className={classes.galereaItem}><img src={Foto44}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto25}>
-                            <figure className={classes.galereaItem}><img src={Foto25}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto27}>
-                            <figure className={classes.galereaItem}><img src={Foto27}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto28}>
-                            <figure className={classes.galereaItem}><img src={Foto28}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto29}>
-                            <figure className={classes.galereaItem}><img src={Foto29}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto30}>
-                            <figure className={classes.galereaItem}><img src={Foto30}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto31}>
-                            <figure className={classes.galereaItem}><img src={Foto31}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto32}>
-                            <figure className={classes.galereaItem}><img src={Foto32}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto33}>
-                            <figure className={classes.galereaItem}><img src={Foto33}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto34}>
-                            <figure className={classes.galereaItem}><img src={Foto34}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto35}>
-                            <figure className={classes.galereaItem}><img src={Foto35}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto36}>
-                            <figure className={classes.galereaItem}><img src={Foto36}/> <h3>&#128269;</h3></figure>
-                        </a>
-
-                        <a className={classes.link} href={Foto38}>
-                            <figure className={classes.galereaItem}><img src={Foto38}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto39}>
-                            <figure className={classes.galereaItem}><img src={Foto39}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto40}>
-                            <figure className={classes.galereaItem}><img src={Foto40}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto41}>
-                            <figure className={classes.galereaItem}><img src={Foto41}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto42}>
-                            <figure className={classes.galereaItem}><img src={Foto42}/> <h3>&#128269;</h3></figure>
-                        </a>
-                        <a className={classes.link} href={Foto43}>
-                            <figure className={classes.galereaItem}><img src={Foto43}/> <h3>&#128269;</h3></figure>
-                        </a>
                     </LightGallery>
 
                 </div>

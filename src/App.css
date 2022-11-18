@@ -7,7 +7,6 @@
   background-color: white;
 }
 */
-
 body{
   background-color: #efefef;
 }
@@ -26,5 +25,15 @@ body{
 
   grid-area: c;
   background-color: blueviolet;
+
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    display: inline!important;
+  }
+  .container button {
+    margin-right: 15px !important;
+  }
 
 }
