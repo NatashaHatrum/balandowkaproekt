@@ -2,26 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d172b1-8dc5-4c34-abd6-cac3d34a7f0d" name="Default Changelist" comment="caly project">
-      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Assets/img/FotoMobil.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/StronaGlówna/GridComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Assets/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Assets/img/Flowers.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Assets/img/IMG_4944.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Assets/img/MainPhotoONas.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Assets/img/TitlePhoto.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Assets/img/TitlePhoto2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Assets/img/Willa-Bałandówka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Heder/Heder.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Heder/Heder.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hooks/isMobile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Rooms/RoomsPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Rooms/SliderRoom1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Assets/img/GlowneFotogslerea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Assets/img/GlowneFotogslerea.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/MyFooter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Kontakts/Formular.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Kontakts/Formular.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Kontakts/Formularz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Kontakts/Formularz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Kontakts/Kontaks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Kontakts/Kontaks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Kontakts/Kontakts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Kontakts/Kontakts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Kontakts/Map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Kontakts/Map.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/Navbar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/O nas/ONas.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/O nas/ONas.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/O nas/ONas.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/O nas/ONas.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StronaGlówna/Slider/Carusel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StronaGlówna/Slider/Carusel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StronaGlówna/Slider/Carusel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StronaGlówna/Slider/Carusel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/Carusel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/Rooms.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rooms/Rooms.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/Rooms.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rooms/Rooms.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/SliderPokoj2.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/SliderPokoj3.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/SliderPokoj4.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/SliderPokoj5.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/SliderPokoj6.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/SliderRooms.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rooms/SliderRooms.modale.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rooms/SliderRooms.modale.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StronaGlówna/StronaGlowna.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StronaGlówna/StronaGlowna.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StronaGlówna/StronaGlówna.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StronaGlówna/StronaGlówna.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,78 +59,113 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/O nas/ONas.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Heder/Heder.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2024">
-              <caret line="88" column="11" selection-start-line="87" selection-end-line="103" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/StronaGlówna/StronaGlówna.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1058">
-              <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+            <state relative-caret-position="171">
+              <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/StronaGlówna/StronaGlowna.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/Rooms/RoomsPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2921">
-              <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+            <state relative-caret-position="165">
+              <caret line="20" column="45" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="20" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NavBar/Navbar.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Kontakts/Kontaks.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="133">
+              <caret line="49" column="91" lean-forward="true" selection-start-line="49" selection-start-column="88" selection-end-line="49" selection-end-column="96" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Kontakts/Kontakts.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/O nas/ONas.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/NavBar/Navbar.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/O nas/ONas.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="412">
+              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-646">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.module.css">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1840">
-              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+            <state relative-caret-position="116">
+              <caret line="60" selection-start-line="60" selection-end-line="73" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Hooks/isMobile.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Rooms/Rooms.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,20 +175,38 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.module.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.jsx" />
-        <option value="$PROJECT_DIR$/src/components/O nas/ONas.module.css" />
         <option value="$PROJECT_DIR$/src/components/StronaGlówna/GridComponent.tsx" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/StronaGlówna/GridComponent.jsx" />
         <option value="$PROJECT_DIR$/src/components/StronaGlówna/Slider/Carusel.jsx" />
         <option value="$PROJECT_DIR$/src/components/StronaGlówna/Slider/Carusel.module.css" />
-        <option value="$PROJECT_DIR$/src/components/O nas/ONas.jsx" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Rooms/SliderRooms.modale.css" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
-        <option value="$PROJECT_DIR$/src/components/StronaGlówna/StronaGlowna.module.css" />
-        <option value="$PROJECT_DIR$/src/components/StronaGlówna/StronaGlówna.jsx" />
-        <option value="$PROJECT_DIR$/src/components/NavBar/Navbar.jsx" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Rooms/SliderPokoj2.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Rooms/Tabel.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Rooms/SliderRoom1.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Rooms/SliderPokoj3.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Footer/MyFooter.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.jsx" />
+        <option value="$PROJECT_DIR$/src/components/O nas/ONas.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Kontakts/Map.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Kontakts/Formularz.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Kontakts/Formular.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Rooms/Rooms.jsx" />
         <option value="$PROJECT_DIR$/src/components/NavBar/Navbar.module.css" />
+        <option value="$PROJECT_DIR$/src/components/NavBar/Navbar.jsx" />
+        <option value="$PROJECT_DIR$/src/components/StronaGlówna/StronaGlówna.jsx" />
+        <option value="$PROJECT_DIR$/src/components/StronaGlówna/StronaGlowna.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Heder/Heder.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Heder/Heder.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Hooks/isMobile.jsx" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/Rooms/Rooms.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Rooms/RoomsPage.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Kontakts/Kontaks.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Kontakts/Kontakts.module.css" />
+        <option value="$PROJECT_DIR$/src/components/O nas/ONas.module.css" />
       </list>
     </option>
   </component>
@@ -150,10 +227,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="138" />
-    <option name="y" value="15" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="640" />
+    <option name="width" value="1280" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,57 +237,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="balandowkaproekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="balandowkaproekt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="balandowkaproekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="balandowkaproekt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="balandowkaproekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="balandowkaproekt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="NavBar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="StronaGlówna" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/untitled11" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\alibaba\WebstormProjects\untitled1\my-app\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.8\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\untitled13\balandowkaproekt\src\components\Assets\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\alibaba\WebstormProjects\untitled1\my-app\src\components\Assets\img" />
     </key>
@@ -252,6 +317,9 @@
       <workItem from="1668507241423" duration="6115000" />
       <workItem from="1668595719178" duration="10784000" />
       <workItem from="1668764610072" duration="303000" />
+      <workItem from="1688032785611" duration="16676000" />
+      <workItem from="1688374192207" duration="16160000" />
+      <workItem from="1688563736744" duration="41508000" />
     </task>
     <task id="LOCAL-00001" summary="caly project">
       <created>1667388513699</created>
@@ -264,17 +332,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67762000" />
+    <option name="totallyTimeSpent" value="142106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.252218" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.236616" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -283,33 +351,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.303155" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006337" side_tool="true" weight="0.31550068" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49936628" visible="true" weight="0.23868313" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49936628" visible="true" weight="0.37181208" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.126109" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.303155" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006337" side_tool="true" weight="0.31550068" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49936628" visible="true" weight="0.31550068" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -378,58 +425,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="caly project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="33" selection-start-line="33" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Kontakts/Kontaks.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-447" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/StronaGlówna/GridComponent.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Assets/img/FotoMobil.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/StronaGlówna/Slider/Carusel.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -445,68 +442,274 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/O nas/ONas.jsx">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="171">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/O nas/ONas.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsfotoGlowne1.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/Tabel.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/Carusel.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/SliderPokoj4.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/SliderPokoj3.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Standart2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Standart3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/Fotogalerea/Fotogalerea7.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/Fotogalerea/Fotogalerea1.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Standart1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/1/IMG_4871.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/1/IMG_4868.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/1/img.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Poddasze/lazenka.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Poddasze/IMG_4792.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Poddasze/IMG_4781.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Poddasze/IMG_4776.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Poddasze/IMG_4610.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/RoomsImg/Poddasze/IMG_4764.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@fortawesome/free-solid-svg-icons/faCouch.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="88" column="11" selection-start-line="87" selection-end-line="103" selection-end-column="1" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/SliderRooms.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/historyja.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Assets/img/Willa-Bałandówka.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Kontakts/Map.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Kontakts/Formular.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Kontakts/Formularz.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="182" column="22" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/StronaGlówna/StronaGlówna.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="99" column="54" lean-forward="true" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/StronaGlówna/StronaGlowna.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2921">
-          <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/Navbar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="249">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        <state relative-caret-position="177">
+          <caret line="68" selection-start-line="68" selection-end-line="68" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/Navbar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavBar/Navbar.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="306">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="16" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/MyFooter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Heder/Heder.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/SliderRooms.modale.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/es/table/Table.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/Rooms.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1344">
+          <caret line="250" column="17" lean-forward="true" selection-start-line="250" selection-start-column="17" selection-end-line="250" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Fotogalerea/Fotogalerea.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/SliderRoom1.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Heder/Heder.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/RoomsPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rooms/Rooms.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Hooks/isMobile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="60" selection-start-line="60" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Kontakts/Kontaks.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="49" column="91" lean-forward="true" selection-start-line="49" selection-start-column="88" selection-end-line="49" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Kontakts/Kontakts.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/O nas/ONas.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/O nas/ONas.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>

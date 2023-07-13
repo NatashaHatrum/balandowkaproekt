@@ -9,19 +9,32 @@ import {faMountain} from "@fortawesome/free-solid-svg-icons";
 import {faWifi} from "@fortawesome/free-solid-svg-icons/faWifi";
 import {faMapLocationDot} from "@fortawesome/free-solid-svg-icons/faMapLocationDot";
 import {faSquareParking} from "@fortawesome/free-solid-svg-icons/faSquareParking";
-import Footer from "../Footer/Footer";
+import MyFooter from "../Footer/MyFooter";
 import Carusel from "./Slider/Carusel";
 import {Col, Row} from "antd";
-import 'antd/dist/antd.css'
+
 import fotoGlowne from "../Assets/img/FotoMobil.jpg";
 import pas from '../Assets/img/razdelitel.png'
 import {motion} from "framer-motion";
+
+
+const roomsDescriptions = [
+    {
+        name: 'standart',
+        description:'Dla 1-3x osób',
+        photo: fotoRoom
+    },
+    {
+        name: 'apartament',
+        description:'Dla 3x-4x osób',
+        photo: fotoRoom2
+    },
+];
 
 const arrayIkons = [
     {
         iconName: faMapLocationDot,
         text: 'Dobra lokalizacja (1km do Centrum Miasta)',
-        className: classes.block1
     },
     {
         iconName: faWifi,
@@ -31,19 +44,15 @@ const arrayIkons = [
     {
         iconName: faMountain,
         text: 'Pokoje z widokiem na góry',
-        className: classes.block2
     },
     {
         iconName: faBuilding,
         text: 'Nowoczesne wyposażenie',
-        className: classes.block2
     },
     {
         iconName: faSquareParking,
         text: 'Darmowy parking',
-        className: classes.block2
     },
-    {}
 ];
 
 
@@ -60,58 +69,50 @@ const Content = () => {
                     <img className={classes.pas} src={pas}/>
                 </div>
             </div>
-            <Row gutter={[10, 5]} justify="center">
-                <Col xs={18} sm={16} md={12} lg={2} xl={4}>
-                    <div className={classes.container}>
-                        <h2>POKOJE</h2>
-                        <h3> W naszej ofercie </h3>
-                    </div>
+            <Row className={classes.tempRow5} justify="center">
+                <Col span={24}>
+                    <div className={classes.titles}><h2>pokoje</h2></div>
+                    <div className={classes.titles2}><h3>W naszej ofercie</h3></div>
                 </Col>
             </Row>
-            <Row gutter={[10, 5]} justify="center">
-                <Col xl={5} xs={18} lg={2} md={10}>
-                    <div className={classes.room}>
-                        <img src={fotoRoom}/>
-                    </div>
-                </Col>
-                <Col xl={3} xs={18} lg={1} md={10}>
-                    <div className={classes.textStandart}>
-                        <h2>STANDART</h2>
-                        <h3>Dla 1-3x osób</h3>
-                        {/* <p>od 120zł/doba</p>*/}
-                    </div>
-                </Col>
+            <Row justify='center' className={classes.temRow6}>
+                {
+                    roomsDescriptions.map((el,index) =>
+                    <>
+                        <Col key={index}  xs={24} sm={9} md={8} lg={7} xl={6} xxl={4}>
+                            <div><img className={classes.photoRoom} src={el.photo}/></div>
+                        </Col>
+                        <Col  xs={24} sm={9} md={8} lg={7} xl={6} xxl={4}>
+                            <h2 className={classes.titleRoom}>{el.name}</h2>
+                            <h3 className={classes.descriptionRoom}>{el.description}</h3>
+                        </Col>
+                    </>
+                    )
+                }
 
-                <Col xl={5} lg={2} xs={18} md={10}>
-                    <div className={classes.room}>
-                        <img src={fotoRoom2}/>
-                    </div>
-                </Col>
-                <Col xl={3} xs={18} lg={2} md={10}>
-                    <div className={classes.textStandart}>
-                        <h2>APARTAMIENT</h2>
-                        <h3>Dla 3x-4x osób</h3>
-                        {/*  <p>od 150zł/doba</p>*/}
-                    </div>
-                </Col>
             </Row>
-
             <div className={classes.btn}>
                 <Button onClick={event => window.location.href = '/rooms'} variant="secondary">Zobacz całą
                     ofertę</Button>
             </div>
-
-            <Row gutter={[5, 10]} className={classes.rowContainer} justify="end" align='top'>
-
-                {arrayIkons.map((el, index) =>
-
-                    <Col xl={10} xs={20} lg={1} md={10} className={el.className}>
-                        <FontAwesomeIcon key={index} icon={el.iconName} className={classes.ikons}/>
-                        <p> {el.text} </p>
-                    </Col>
-                )}
+            <Row className={classes.tempRow4}>
+                <Col span={24}>
+                    <Row className={classes.tempRow3}>
+                        {arrayIkons.map((el, index) =>
+                            <>
+                                <Col xs={24} sm={12} md={12} lg={12} xl={12} xxl={12}>
+                                    <div>
+                                        <span><FontAwesomeIcon key={index} icon={el.iconName}
+                                                               className={classes.ikons}/> </span>
+                                        <span className={classes.textIcons}> {el.text} </span>
+                                    </div>
+                                </Col>
+                            </>
+                        )}
+                    </Row>
+                </Col>
             </Row>
-            <Footer/>
+            <MyFooter/>
         </Fragment>
 
     );

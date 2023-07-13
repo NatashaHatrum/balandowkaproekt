@@ -2,7 +2,7 @@ import React from 'react';
 import classes from "../Kontakts/Map.module.css";
 import {MapContainer, Marker, Popup} from 'react-leaflet'
 import {TileLayer} from 'react-leaflet'
-
+import photo from "./../Assets/img/IMG_4944.JPG"
 
 const position = [49.28653, 19.95128];
 
@@ -22,7 +22,7 @@ class MyMap extends React.Component {
                 <Marker
                     position={position}>
                     <Popup>
-                        Bałandówka
+                        <img style={{width:'100px', height:'auto'}} src={photo}/>  <p> Bałandówka</p>
                     </Popup>
                 </Marker>
             </MapContainer>)

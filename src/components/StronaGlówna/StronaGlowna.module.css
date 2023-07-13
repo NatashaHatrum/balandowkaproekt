@@ -1,53 +1,27 @@
 
-.container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
+.tempRow5 {
+    margin-top: 3%;
 }
 
-.container > h2 {
+.photoRoom {
+    max-width: 300px;
+}
+
+.titles {
     text-align: center;
-    padding-top: 50px;
+    font-size: 25px;
+    color: #282c34;
+    text-transform: uppercase;
     font-family: 'Cinzel', serif;
-    font-size: 25px;
-    color: #282c34;
-    margin: 0;
+
 }
 
-.container > h3 {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Cormorant Garamond', serif;
-    margin: 0;
-    padding-bottom: 20px;
-}
-
-.container .pokoje {
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.textStandart {
-    padding-top: 15%;
-}
-
-.textStandart > p {
-    color: #ffab67;
-}
-
-.textStandart > h3 {
+.titles2 {
     font-size: 20px;
-}
-
-.textStandart > h2 {
-    font-size: 25px;
     color: #282c34;
-
-}
-
-.container .room {
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+
 }
 
 .pokoje .textStandart {
@@ -64,79 +38,85 @@
 
 }
 
-.room img {
-    width: 300px;
-    height: auto;
-}
-
-.rowContainer {
-    width: 100vw;
-    min-height: 250px;
-    background-color: #150d1a;
-    color: rgba(255, 198, 133, 0.55);
-
-    font-weight: normal;
-    font-family: 'Raleway', sans-serif;
-    justify-content: center;
-    margin-top: 30px;
-    font-size: 20px;
-    display: inline-block;
-
-}
-
-.rowContainer .block1 {
-    float: left;
-    margin-top: 30px
-
-}
-
-.rowContainer .block2 {
-    margin-top: 30px;
-}
-
-.rowContainer .block1 > p {
-    padding-top: 20px;
-}
-
-.rowContainer .block2 > p {
-    padding-top: 20px;
-
-}
-.GlowneFoto{
+.GlowneFoto {
     display: none;
 }
+
 .ikons {
-    padding-top: 15px;
-    padding-right: 10px;
-    float: left;
+    padding-top: 3%;
+    padding-right: 2%;
     color: rgba(255, 255, 255, 0.55);
     font-size: 36px;
-
 }
 
-@media only screen and (max-width: 500px) {
+.titleRoom {
+    color: #282c34;
+    text-transform: uppercase;
+}
+
+.descriptionRoom {
+    color: #282c34;
+    font-size: 20px;
+}
+
+.tempRow3 {
+    max-width: 48vw;
+    margin: 0 auto;
+}
+
+.textIcons {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 198, 133, 0.55);
+}
+
+.tempRow4 {
+    background-color: #150d1a;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+.temRow6 {
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 600px) {
     .textStandart {
         padding-top: 0;
     }
-    .btn {
-        margin-top: 15px;
+
+    .textIcons {
+        font-size: 20px;
     }
-    .textStandart > h2{
+
+    .ikons {
+        font-size: 25px;
+    }
+
+    .btn {
+        margin-top: 18px;
+    }
+
+    .textStandart > h2 {
         margin: 0;
         font-size: 18px;
     }
-    .textStandart > h3{
+
+    .textStandart > h3 {
         margin: 0;
         font-size: 15px;
         padding-bottom: 10px;
         color: #ffab67;
     }
-    .GlowneFoto{
+
+    .GlowneFoto {
         display: flex;
-        width: 100vw ;
+        width: 100vw;
         height: auto;
-            }
-    .fotoGlowne >h2{  position: absolute;
+    }
+
+    .fotoGlowne > h2 {
+        position: absolute;
         color: white;
         font-size: 30px;
         left: 0;
@@ -146,8 +126,9 @@
         font-family: 'Cinzel', serif;
         text-shadow: 3px 3px 3px #000;
 
-     }
-    .fotoGlowne >h3{
+    }
+
+    .fotoGlowne > h3 {
         position: absolute;
         color: white;
         font-size: 18px;
@@ -159,19 +140,33 @@
         font-family: 'Cinzel', serif;
         text-shadow: 3px 3px 3px #000;
     }
-    .pas{
-        width: 100vw ;
-        padding-top: 20px ;
+
+    .pas {
+        width: 100vw;
+        padding-top: 20px;
     }
-    .container > h2{
+
+    .container > h2 {
         padding-top: 10px;
     }
-    .rowContainer .block1 > p {
-         font-size: 15px;
 
-     }
-    .rowContainer .block2 > p {
+    .rowContainer .block1 > p {
         font-size: 15px;
 
+    }
+
+    .tempRow3 {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .rowContainer .block2 > p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .temRow6 {
+        text-align: center;
     }
 }
