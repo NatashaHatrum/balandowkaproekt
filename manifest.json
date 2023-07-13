@@ -1,0 +1,25 @@
+{
+  "name": "Balandówka APP",
+  "short_name": "balandówka",
+"shart_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#efefef",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/icon512x512.png",
+     " type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/images/icon512x512.png",
+      " type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/icon512x512.png",
+      " type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
