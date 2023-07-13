@@ -1,0 +1,104 @@
+.bady {
+    background-color: #090d1b;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 0;
+
+}
+
+.container {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fotoGlowne img {
+    width: 100%;
+    height: 700px;
+
+}
+
+.container h2 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 30%;
+    font-family: 'Cinzel', serif;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.container h3 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    font-family: 'Cinzel', serif;
+    text-shadow: 3px 3px 3px #000;
+
+}
+
+.naglowek1 {
+    justify-content: center;
+    font-size: 36px;
+    color: #6e4931;
+    padding-top: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.naglowek2 {
+    justify-content: center;
+    font-size: 25px;
+    color: #a87045;
+    padding-top: 10px;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+.text {
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    padding: 30px;
+
+}
+
+.container .text p {
+    text-indent: 25px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.fotoHistoryja img {
+    float: left;
+    height: auto;
+    width: 600px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .fotoGlowne {
+        display: none;
+    }
+
+    .naglowek1 {
+        display: none;
+    }
+
+    .text {
+        padding-top: 5px !important;
+    }
+    .fotoHistoryja img{
+        max-width: 350px!important;
+        padding: 5px 15px 5px 5px;
+    }
+}

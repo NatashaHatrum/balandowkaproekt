@@ -1,0 +1,64 @@
+
+.fotoGlowne img{
+    width: 100vw;
+    margin-bottom: 50px;
+    height: 700px;
+
+}
+.container h2{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 30%;
+    font-family: 'Cinzel', serif;
+    text-shadow: 3px 3px 3px #000;
+
+}
+
+.container p{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    font-family: 'Cinzel', serif;
+    text-shadow: 3px 3px 3px #000;
+
+}
+
+.container .containerContent h3{
+padding: 10px;
+    font-family: 'Cinzel', serif;
+
+
+
+
+}
+.container .containerContent{
+    padding-left: 30px;
+padding-bottom: 30px;
+    float: left;
+    margin-left: 20%;
+    padding-right: 40px;
+    font-size: 20px;
+
+
+
+}
+.ikons{
+    color: #6f4d2d;
+}
+.content{
+    padding: 10px;
+}
+.formular{
+    float: left;
+
+
+
+}

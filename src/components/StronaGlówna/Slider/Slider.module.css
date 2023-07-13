@@ -1,0 +1,132 @@
+
+.slider {
+
+    width: 100vw;
+    height: 100vh;
+    -webkit-backface-visibility: hidden;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.centered {
+    background-image:  url("./../../Assets/img/Strona glówna.jpg") !important;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+
+
+
+
+}
+
+.centeredSecondary {
+    background-image: url("./../../Assets/img/Slajd3.jpg") !important;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+
+.centeredSlide3 {
+    background-image: url('./../../Assets/img/Slajd2.jpg') !important;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+
+.flexible {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    animation: text 3s 1;
+    font-family: 'Cinzel', serif;
+}
+
+
+.centered p {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 57%;
+}
+
+.centeredSecondary p {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 57%;
+}
+
+.centered button {
+    position: absolute;
+    color: #434343;
+    font-size: 25px;
+    right: 20%;
+    left: 65%;
+    text-align: center;
+    top: 67%;
+    border: 2px solid #434343;
+    border-radius: 5px;
+
+}
+
+.centeredSecondary button {
+    position: absolute;
+    color: #434343;
+    font-size: 25px;
+    right: 25%;
+    left: 65%;
+    text-align: center;
+    top: 65%;
+    border: 2px solid #434343;
+    border-radius: 5px;
+}
+
+.centeredSlide3 p {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 57%;
+}
+
+.centeredSlide3 button {
+
+    position: absolute;
+    color: #434343;
+    font-size: 25px;
+    right: 25%;
+    left: 60%;
+    text-align: center;
+    top: 65%;
+    border: 2px solid #434343;
+    border-radius: 5px;
+}
+
+
+@keyframes text {
+    0% {
+
+        margin-bottom: -40px;
+    }
+}
+

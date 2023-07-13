@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Content from "./components/StronaGlówna/StronaGlówna";
+import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
+import AboutUs from "./components/O nas/ONas";
+import NavBarExample from "./components/NavBar/Navbar";
+import Rooms from "./components/Rooms/Rooms";
+import Fotogalerea from "./components/Fotogalerea/Fotogalerea";
+import Kontakts from "./components/Kontakts/Kontaks";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+const App = (props) => {
+
+
+
+    return (
+
+                <BrowserRouter>
+                    <NavBarExample />
+                        <Routes>
+
+                            <Route path ='/home' element={<Content/>}/>
+                            <Route path='/aboutUs' element={<AboutUs/>}/>
+                            <Route path='/rooms' element={<Rooms/>}/>
+                            <Route path='/foto' element={<Fotogalerea/>}/>
+                            <Route path='/kontakt' element={<Kontakts/>}/>
+                             <Route path = '*' element={<Navigate replace to = '/home' />}/>
+                        </Routes>
+
+                </BrowserRouter>
+
+    )
+
 }
+
 
 export default App;

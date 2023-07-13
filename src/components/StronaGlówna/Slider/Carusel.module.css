@@ -1,0 +1,56 @@
+
+button{
+    border:none;
+    background: none;
+}
+
+
+.flexible {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    animation: text 3s 1;
+    font-family: 'Cinzel', serif;
+    text-shadow: 3px 3px 3px #000;
+}
+.centered {
+
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+.centered p {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 57%;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.centered button {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    white-space: nowrap;
+    text-shadow: 1px 1px 1px #000;
+
+}
+.centered .flexible h3{
+    font-size: 70px;
+}
+@media only screen and (max-width: 500px) {
+
+    .carusel{
+        display: none;
+    }
+}
