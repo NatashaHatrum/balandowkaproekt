@@ -20,6 +20,9 @@
         width: 5.5rem;
         padding-bottom: 0;
     }
+    .tempCol2{
+        text-align: end;
+    }
     .container {
         display: inline-block!important
     }
@@ -27,7 +30,9 @@
         min-height: 50px!important;
         display: flex;
     }
-
+    .tempRow9{
+        justify-content: center;
+    }
 }
 
 .space{

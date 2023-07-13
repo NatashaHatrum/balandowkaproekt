@@ -1,116 +1,17 @@
-.bady {
-    background-color: #090d1b;
-    font-family: 'Lato', sans-serif;
-    color: white;
-    margin: 0;
-    width:100vw ;
 
+.tableStyle {
+    font-size: 40px !important;
 }
 
-.container {
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-
+.smoking {
+    padding-left: 12%;
+    padding-top: 2%;
+    margin-bottom: 8%;
 }
 
-.tlo {
-    background-color: rgba(255, 198, 133, 0.55);
-
-}
-
-.fotoGlowne img {
-    width: 100%;
-    height: 700px;
-
-}
-
-.container h2 {
-    position: absolute;
-    color: white;
-    font-size: 30px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 30%;
-    font-family: 'Cinzel', serif;
-    text-shadow: 3px 3px 3px #000;
-
-
-}
-
-.container p {
-    position: absolute;
-    color: white;
-    font-size: 50px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 40%;
-    font-family: 'Cinzel', serif;
-    text-shadow: 3px 3px 3px #000;
-
-}
-
-.pokoje {
-    float: left;
-
-    text-align: center;
-    margin: 10px;
-}
-
-.overlatT img {
-    width: 800px;
-    height: auto;
-
-}
-
-.standart1 {
-
-    display: flex;
-    align-items: center;
+.tempRow1 {
+    margin-top: 3%;
     justify-content: center;
-    margin-left: 180px;
-    font-family: 'Cinzel', serif;
-    margin-right: 60px;;
-}
-
-.Standart1H3 {
-
-    font-size: 5px;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    float: left;
-    padding-top: 30px;
-    padding-left: 100px;
-
-}
-
-.Standart1H32 {
-    float: left;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    padding-top: 30px;
-    padding-left: 120px;
-
-}
-
-.apartament {
-
-    font-size: 5px;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    float: left;
-    padding-top: 30px;
-    padding-left: 80px;
-}
-
-.apartament1 {
-    float: left;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    padding-top: 30px;
-    padding-left: 20px;
 }
 
 .ikons {
@@ -119,100 +20,39 @@
     font-size: 15px;
 }
 
-.content {
-    clear: both;
-
-    margin-top: 20px;
-    float: left;
-    padding-left: 100px;
-    padding-right: 30px;
-
-}
-
-.content2 {
-    float: left;
-    margin-top: 20px;
-    margin-left: 120px;
-    font-size: 12px;
-
-}
-
-.container2 {
-    float: left;
-    font-size: 12px;
-    padding-bottom: 80px;
-    margin-top: 50px;
-    width: 40%;
-}
-
-.palenie {
-    clear: both;
-    float: left;
-    margin-top: 40px;
-    padding-left: 100px;
-}
-
-.container3 {
-    background-color: rgba(255, 198, 133, 0.55) !important;;
-}
-
 .ikons2 {
     font-size: 30px;
     padding-right: 5px;
 }
 
-.hr1 hr {
-    margin-top: 125px;
-}
-
-.hr2 hr {
-    margin-top: 125px;
-}
-
-.hr3 hr {
-    margin-top: 170px;
-}
-
-.hr4 hr {
-    margin-top: 150px;
-}
-
-.btn {
-    clear: both;
-    display: flex;
-    margin-left: 70%;
-    margin-top: 170px;
-
-}
-
-.slider {
-    width: 770px;
-
-    float: left;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-.container4 {
-    width: 100vw;
- padding-left: 10%;
-
-    height: 350px;
-
-
-}
-
-.pas {
-    clear: both;
-    margin: 50px 30% 0;
-    justify-content: center;
-    display: block;
-
+.tempRow2 {
+    padding-top: 3%;
+    text-align: center;
 }
 
 .pas img {
-    width: 600px;
+    width: 30%;
     height: auto;
+}
 
+.space {
+    margin-bottom: 3%;
+}
 
+@media only screen and (max-width: 600px) {
+    .tempCol9 {
+        display: none;
+    }
+
+    .tempRow1 {
+        padding: 15px;
+    }
+
+    .tempRow2 {
+        padding-top: 6%;
+    }
+
+    .pas img {
+        width: 70%;
+    }
 }

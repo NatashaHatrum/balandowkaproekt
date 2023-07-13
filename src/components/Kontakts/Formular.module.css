@@ -5,13 +5,15 @@
 
 input{
     color: #6f4d2d;
-   padding: 10px 400px 10px 5px;
+     width: 100%;
+    padding: 2% 0 2% 1%;
+
 }
 
 textarea{
-
-    padding: 30px 410px 30px 5px;
+    width: 100%;
     color: #6f4d2d;
+    padding: 6% 0 6% 1%;
 }
 .btn {
 
@@ -20,11 +22,9 @@ textarea{
     padding-bottom: 30px;
     padding-top: 20px;
     clear: both;
-
 }
 
 h1{
-
     color: #6f4d2d;
     font-family: 'Cinzel', serif;
     text-align: center;
@@ -44,10 +44,7 @@ input:valid:not(:placeholder-shown) {border-color: green;}
 }
 
 .checkbox1 input{
-    float: left;
-margin-top: 4px;
-    margin-left: 5px;
-
+width: 5%!important;
 }
 
 .textErrorChekbox{

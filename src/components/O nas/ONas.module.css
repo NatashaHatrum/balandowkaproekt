@@ -85,6 +85,13 @@
     padding-right: 15px;
 }
 
+.fotoHistoryja2 img {
+    float: right;
+    height: auto;
+    width: 600px;
+    padding-left: 15px;
+}
+
 @media only screen and (max-width: 600px) {
     .fotoGlowne {
         display: none;
@@ -97,8 +104,26 @@
     .text {
         padding-top: 5px !important;
     }
-    .fotoHistoryja img{
-        max-width: 350px!important;
-        padding: 5px 15px 5px 5px;
+
+    .fotoHistoryja {
+        display: flex;
+        justify-content: center;
+    }
+    .fotoHistoryja2 {
+        display: flex;
+        justify-content: center;
+    }
+    .fotoHistoryja img {
+        max-width: 350px !important;
+        padding: 5px 0 5px 5px;
+    }
+
+    .fotoHistoryja2 img {
+        max-width: 350px !important;
+        padding: 5px 0 5px 5px;
+    }
+
+    .text {
+        padding: 15px;
     }
 }

@@ -3,7 +3,7 @@ import './App.css';
 import Content from "./components/StronaGlówna/StronaGlówna";
 import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 import AboutUs from "./components/O nas/ONas";
-import NavBarExample from "./components/NavBar/Navbar";
+import NavBar from "./components/NavBar/Navbar";
 import Rooms from "./components/Rooms/Rooms";
 import Fotogalerea from "./components/Fotogalerea/Fotogalerea";
 import Kontakts from "./components/Kontakts/Kontaks";
@@ -23,9 +23,8 @@ const App = (props) => {
     return (
 
                 <BrowserRouter>
-                    <NavBarExample />
+                    <NavBar />
                         <Routes>
-
                             <Route path ='/home' element={<Content/>}/>
                             <Route path='/aboutUs' element={<AboutUs/>}/>
                             <Route path='/rooms' element={<Rooms/>}/>

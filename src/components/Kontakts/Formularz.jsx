@@ -5,6 +5,8 @@ import {useFormik} from 'formik';
 import emailjs from 'emailjs-com'
 import Swal from 'sweetalert2'
 import Umowa from '../Assets/Umowa/UmowaYzytkownika.txt'
+import {Row, Col} from "antd";
+
 
 const validate = values => {
 
@@ -65,7 +67,7 @@ const[isSending,setIsSending] = useState(false)
             setIsSending(true)
             try{
 
-                emailjs.send('service_1f6qj76' , 'template_vcwz6hi', values, 'TsRvBBN6BgusBPdV2')
+                emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, values, process.env.REACT_APP_PUBLIC_KEY)
                     .then((result) => {
 
                         console.log(result.text);
@@ -114,6 +116,8 @@ const[isSending,setIsSending] = useState(false)
 
     return (
         <>
+            <Row style={{minWidth: '30vw'}}>
+                <Col span={24}>
             <form onSubmit={formik.handleSubmit}>
                 <h1>Skontaktuj się z nami</h1>
 
@@ -196,27 +200,31 @@ const[isSending,setIsSending] = useState(false)
                     <div className={classes.textError}>{wiadomoscError}</div>
                 </div>
 
-                <div className={classes.checkbox1}><input
+                <Row >
+                    <Col span={24}>
+                  <span className={classes.checkbox1}> <input
                     name="zgoda"
                     id="zgoda"
                     type='checkbox'
                     className={formik.errors.zgoda ? classes.hasError : ''}
                     onChange={formik.handleChange}
                     value={formik.values.zgoda}
+                  /></span>
 
-                />
-
-                    <div className={classes.checkboxText}>Akceptuję warunki <a href={Umowa} target='_blank'> umowy użytkownika </a>i wyrażam zgodę <br/>
+                    <span>{/*Akceptuję warunki <a href={Umowa} target='_blank'> umowy użytkownika </a>i*/} Wyrażam zgodę
                         na przetwarzanie moich danych osobistych*
-                    </div>
+                    </span>
                     <div className={classes.textErrorChekbox}>{zgodaError}</div>
-                </div>
+                    </Col>
+                </Row>
 
 
                 <div className={classes.btn}><Button disabled={isSending}  variant="secondary" type="submit">
                     Wyślij
                 </Button></div>
             </form>
+                </Col>
+            </Row>
         </>
     );
 
