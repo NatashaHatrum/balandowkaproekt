@@ -15,8 +15,8 @@ button{
     text-transform: uppercase;
     letter-spacing: 10px;
     margin-bottom: 20px;
-    animation: text 3s 1;
-    font-family: 'Cinzel', serif;
+    animation: text 8s 1;
+    font-family: 'Rubik Dirt', cursive;
     text-shadow: 3px 3px 3px #000;
 }
 .centered {
@@ -27,9 +27,10 @@ button{
 
 }
 .centered p {
+    font-family: 'Rubik Dirt', cursive;
     position: absolute;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     left: 0;
     right: 0;
     text-align: center;

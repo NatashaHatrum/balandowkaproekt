@@ -64,8 +64,16 @@ clear: both;
     text-decoration: none;
 }
 
-
-
+.author{
+    color: #3c3c3c;
+    font-family: 'Cormorant Garamond', serif;
+margin: 3%;
+}
+.tempRow11{
+    text-align: center;
+    width: 100%;
+    min-height: 5vh;
+}
 .social{
     padding-top: 10px;
     text-transform: uppercase;

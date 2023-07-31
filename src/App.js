@@ -15,25 +15,23 @@ import 'lightgallery/css/lg-thumbnail.css';
 
 
 
-
 const App = (props) => {
-
 
 
     return (
 
-                <BrowserRouter>
-                    <NavBar />
-                        <Routes>
-                            <Route path ='/home' element={<Content/>}/>
-                            <Route path='/aboutUs' element={<AboutUs/>}/>
-                            <Route path='/rooms' element={<Rooms/>}/>
-                            <Route path='/foto' element={<Fotogalerea/>}/>
-                            <Route path='/kontakt' element={<Kontakts/>}/>
-                             <Route path = '*' element={<Navigate replace to = '/home' />}/>
-                        </Routes>
+        <BrowserRouter>
+            <NavBar/>
+            <Routes>
+                <Route path='/home' element={<Content/>}/>
+                <Route path='/aboutUs' element={<AboutUs/>}/>
+                <Route path='/rooms' element={<Rooms/>}/>
+                <Route path='/foto' element={<Fotogalerea/>}/>
+                <Route path='/kontakt' element={<Kontakts/>}/>
+                <Route path='*' element={<Navigate replace to='/home'/>}/>
+            </Routes>
 
-                </BrowserRouter>
+        </BrowserRouter>
 
     )
 

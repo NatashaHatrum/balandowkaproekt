@@ -7,8 +7,8 @@
 
 .title {
     color: white;
-    font-size: 50px;
-    font-family: 'Cinzel', serif;
+    font-size: 70px;
+    font-family: 'Rubik Dirt', cursive;
     text-shadow: 3px 3px 3px #000;
     text-transform: uppercase;
     text-align: center;
@@ -17,7 +17,8 @@
 .descripilon {
     color: white;
     font-size: 30px;
-    font-family: 'Cinzel', serif;
+    font-weight: 200!important;
+    font-family: 'Rubik Dirt', cursive;
     text-shadow: 3px 3px 3px #000;
     text-align: center;
 }
@@ -28,7 +29,7 @@
     background-position: inherit!important;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 920px) {
    .photoMain{
        width: 100%!important;
        height: 30vh!important;

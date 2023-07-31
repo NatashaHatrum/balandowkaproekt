@@ -35,7 +35,7 @@ export const RoomsPage = ({componentSlider, dataForTable, columnsForTable, id}) 
                     <Row justify='end'>
                         <Col span={8} className={classes.tempCol9}>
                             <Button style={{backgroundColor: '#6c757d', color: 'white'}}
-                                    onClick={event => window.location.href = '/kontakt'}>REZERWUJ POBYT</Button>
+                                    onClick={event => window.location.href = 'https://natashahatrum.github.io/kontakt'}>REZERWUJ POBYT</Button>
                         </Col>
                     </Row>
                 </Col>
@@ -44,7 +44,7 @@ export const RoomsPage = ({componentSlider, dataForTable, columnsForTable, id}) 
                 <Row justify='center'>
                     <Col span={8}>
                         <Button style={{backgroundColor: '#6c757d', color: 'white'}}
-                                onClick={event => window.location.href = '/kontakt'}>REZERWUJ POBYT</Button>
+                                onClick={event => window.location.href = 'https://natashahatrum.github.io/kontakt'}>REZERWUJ POBYT</Button>
                     </Col>
 
                 </Row>

@@ -11,6 +11,7 @@ import {faMapLocationDot} from "@fortawesome/free-solid-svg-icons/faMapLocationD
 import {faSquareParking} from "@fortawesome/free-solid-svg-icons/faSquareParking";
 import MyFooter from "../Footer/MyFooter";
 import Carusel from "./Slider/Carusel";
+import Sliders from "./Slider";
 import {Col, Row} from "antd";
 
 import fotoGlowne from "../Assets/img/FotoMobil.jpg";
@@ -59,7 +60,7 @@ const arrayIkons = [
 const Content = () => {
     return (
         <Fragment>
-            <Carusel/>
+            <Sliders/>
             <div className={classes.GlowneFoto}>
                 <div className={classes.fotoGlowne}>
                     <img src={fotoGlowne}/>
@@ -92,7 +93,7 @@ const Content = () => {
 
             </Row>
             <div className={classes.btn}>
-                <Button onClick={event => window.location.href = '/rooms'} variant="secondary">Zobacz całą
+                <Button onClick={event => window.location.href = 'https://natashahatrum.github.io/rooms'} variant="secondary">Zobacz całą
                     ofertę</Button>
             </div>
             <Row className={classes.tempRow4}>
