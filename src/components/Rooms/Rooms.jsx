@@ -3,7 +3,9 @@ import classes from './Rooms.module.css'
 import mainPhoto from './../Assets/img/TitlePhoto.jpg'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUser} from "@fortawesome/free-solid-svg-icons/faUser";
+
 import {faCouch} from "@fortawesome/free-solid-svg-icons/faCouch";
+import {faMugSaucer} from "@fortawesome/free-solid-svg-icons/faMugSaucer";
 import {faShower} from "@fortawesome/free-solid-svg-icons/faShower";
 import {faSquareParking} from "@fortawesome/free-solid-svg-icons/faSquareParking";
 import {faWifi} from "@fortawesome/free-solid-svg-icons/faWifi";
@@ -12,6 +14,7 @@ import {faBanSmoking} from "@fortawesome/free-solid-svg-icons/faBanSmoking";
 import {Button} from 'antd'
 import {faUserGroup} from "@fortawesome/free-solid-svg-icons/faUserGroup";
 import {faBed} from "@fortawesome/free-solid-svg-icons/faBed";
+import {faUtensils} from "@fortawesome/free-solid-svg-icons/faUtensils";
 import {faMountainSun} from "@fortawesome/free-solid-svg-icons/faMountainSun";
 import pas from './../Assets/img/razdelitel.png'
 
@@ -68,13 +71,23 @@ const tabelInfo = [
         icon: faMountainSun,
     },
     {
+        name: 'Bezpłatne WiFi',
+        icon: faWifi,
+    },
+
+    {
+        name: 'Bez wyżywienia',
+        icon: faMugSaucer
+    },
+    {
         name: 'Parking',
         icon: faSquareParking,
     },
     {
-        name: 'Bezpłatne WiFi',
-        icon: faWifi,
+        name: 'Dostęp do wspólnej kuchni',
+        icon: faUtensils,
     },
+
 ];
 const tabelInfo2 = [
     {
@@ -94,12 +107,20 @@ const tabelInfo2 = [
         icon: faBed,
     },
     {
+        name: 'Bezpłatne WiFi',
+        icon: faWifi,
+    },
+    {
+        name: 'Bez wyżywienia',
+        icon: faMugSaucer
+    },
+    {
         name: 'Parking',
         icon: faSquareParking,
     },
     {
-        name: 'Bezpłatne WiFi',
-        icon: faWifi,
+        name: 'Dostęp do wspólnej kuchni',
+        icon: faUtensils,
     },
 ];
 const tabelInfo3 = [
@@ -123,6 +144,7 @@ const tabelInfo3 = [
         name: 'Bezpłatne WiFi',
         icon: faWifi,
     },
+
     {
         name: 'Balkon z widokiem na góry',
         icon: faMountainSun,
@@ -130,6 +152,14 @@ const tabelInfo3 = [
     {
         name: 'Parking',
         icon: faSquareParking,
+    },
+    {
+        name: 'Bez wyżywienia',
+        icon: faMugSaucer
+    },
+    {
+        name: 'Dostęp do wspólnej kuchni',
+        icon: faUtensils,
     },
 ];
 const tabelInfo4 = [
@@ -150,8 +180,16 @@ const tabelInfo4 = [
         icon: faWifi,
     },
     {
+        name: 'Bez wyżywienia',
+        icon: faMugSaucer
+    },
+    {
         name: 'Parking',
         icon: faSquareParking,
+    },
+    {
+        name: 'Dostęp do wspólnej kuchni',
+        icon: faUtensils,
     },
 ];
 const tabelInfo5 = [
@@ -172,8 +210,17 @@ const tabelInfo5 = [
         icon: faWifi,
     },
     {
+        name: 'Bez wyżywienia',
+        icon: faMugSaucer
+    },
+    {
         name: 'Parking',
         icon: faSquareParking,
+    },
+
+    {
+        name: 'Dostęp do wspólnej kuchni',
+        icon: faUtensils,
     },
 ];
 const tabelInfo6 = [
@@ -204,8 +251,16 @@ const tabelInfo6 = [
         icon: faBed,
     },
     {
+        name: 'Bez wyżywienia',
+        icon: faMugSaucer
+    },
+    {
         name: 'Bezpłatne WiFi',
         icon: faWifi,
+    },
+    {
+        name: 'Dostęp do wspólnej kuchni',
+        icon: faUtensils,
     },
 
 ];

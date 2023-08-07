@@ -5,6 +5,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBanSmoking} from "@fortawesome/free-solid-svg-icons/faBanSmoking";
 import pas from "../Assets/img/razdelitel.png";
 import {useMobile} from './../Hooks/isMobile'
+import {Link} from "react-router-dom";
+
 
 export const RoomsPage = ({componentSlider, dataForTable, columnsForTable, id}) => {
     const [isMobile] = useMobile();
@@ -34,8 +36,9 @@ export const RoomsPage = ({componentSlider, dataForTable, columnsForTable, id}) 
                     </Row>
                     <Row justify='end'>
                         <Col span={8} className={classes.tempCol9}>
-                            <Button style={{backgroundColor: '#6c757d', color: 'white'}}
-                                    onClick={event => window.location.href = 'https://natashahatrum.github.io/kontakt'}>REZERWUJ POBYT</Button>
+                            <Link to='/kontakt'>
+                            <Button  style={{backgroundColor: '#6c757d', color: 'white'}}>REZERWUJ POBYT</Button>
+                            </Link>
                         </Col>
                     </Row>
                 </Col>
@@ -43,8 +46,9 @@ export const RoomsPage = ({componentSlider, dataForTable, columnsForTable, id}) 
             {!isMobile ? undefined :
                 <Row justify='center'>
                     <Col span={8}>
-                        <Button style={{backgroundColor: '#6c757d', color: 'white'}}
-                                onClick={event => window.location.href = 'https://natashahatrum.github.io/kontakt'}>REZERWUJ POBYT</Button>
+                        <Link to='/kontakt'>
+                            <Button style={{backgroundColor: '#6c757d', color: 'white'}}>REZERWUJ POBYT</Button>
+                        </Link>
                     </Col>
 
                 </Row>

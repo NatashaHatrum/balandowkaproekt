@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
 import classes from './Sliders.module.css'
 import Slider from 'react-animated-slider';
-import foto1 from "./../Assets/img/SlideGlowna1.JPG"
-import foto2 from "./../Assets/img/Slide2Glowna.JPG"
-import foto3 from "./../Assets/img/Slide3Glowna.JPG"
+import foto1 from "./../Assets/img/SlideGlowna01.jpg"
+import foto2 from "./../Assets/img/Slide2Glowna02.jpg"
+import foto3 from "./../Assets/img/Slide03Glowna.jpg"
 import 'react-animated-slider/build/horizontal.css';
 import {Button} from "react-bootstrap";
-import Nav from "react-bootstrap/Nav";
 import {Link} from "react-router-dom";
 
 
@@ -18,8 +17,6 @@ const content = [
         button: 'Zobacz prezentacje',
         image: foto1,
         path: '/rooms'
-
-
     },
     {
         title: 'Wystarczy',
@@ -54,12 +51,12 @@ const Sliders = () => (
                 <div
                     key={index}
                     className={classes.sliderContent}
-                    style={{ background: `url('${item.image}') `, backgroundSize: 'cover' }}
+                    style={{background: `url('${item.image}') `, backgroundSize: 'cover', backgroundPositionX: 'center'}}
                 >
                     <div className={classes.inner}>
                         <h1>{item.title}</h1>
                         <p>{item.description}</p>
-                        <Button  variant="secondary" size="lg"  onClick={event => window.location.pathname  = item.path}>{item.button}</Button>
+                        <Link to={item.path}><Button  className={classes.button1}>{item.button}</Button></Link>
                     </div>
                 </div>
             ))}

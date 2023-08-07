@@ -5,9 +5,7 @@
 }
 
 .logo {
-
     width: 7.5rem;
-
     opacity: 0.7;
 }
 
@@ -15,22 +13,24 @@
     padding-top: 0;
     height: 38px;
 }
-
-@media only screen and (max-width: 920px) {
-    .logo {
+.inst svg{
+    display: block!important;
+    text-align: center!important;
+}
+@media only screen and (max-width: 600px) {
+    .logoMobile {
         width: 5.5rem;
         padding-bottom: 0;
     }
 
-    .button1 {
-        display: none;
-    }
-
-    .button2 {
-        display: none
+    .button2Mobile {
+      border-color: #7a7a7a54!important;
 
     }
+    .button1Mobile {
+        border-color: #7a7a7a54!important;
 
+    }
     .tempCol2 {
         text-align: end;
     }

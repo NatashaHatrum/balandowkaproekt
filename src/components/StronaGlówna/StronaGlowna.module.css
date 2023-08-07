@@ -5,6 +5,7 @@
 
 .photoRoom {
     max-width: 300px;
+    border: 7px gray double;
 }
 
 .titles {
@@ -38,9 +39,6 @@
 
 }
 
-.GlowneFoto {
-    display: none;
-}
 
 .ikons {
     padding-top: 3%;
@@ -107,43 +105,6 @@
         font-size: 15px;
         padding-bottom: 10px;
         color: #ffab67;
-    }
-
-    .GlowneFoto {
-        display: flex;
-        width: 100vw;
-        height: auto;
-    }
-
-    .fotoGlowne > h2 {
-        position: absolute;
-        color: white;
-        font-size: 30px;
-        left: 0;
-        right: 0;
-        text-align: center;
-        top: 17%;
-        font-family: 'Cinzel', serif;
-        text-shadow: 3px 3px 3px #000;
-
-    }
-
-    .fotoGlowne > h3 {
-        position: absolute;
-        color: white;
-        font-size: 18px;
-        left: 0;
-        right: 0;
-        text-align: center;
-        justify-content: center;
-        top: 25%;
-        font-family: 'Cinzel', serif;
-        text-shadow: 3px 3px 3px #000;
-    }
-
-    .pas {
-        width: 100vw;
-        padding-top: 20px;
     }
 
     .container > h2 {

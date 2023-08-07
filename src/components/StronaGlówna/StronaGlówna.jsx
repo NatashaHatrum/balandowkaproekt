@@ -10,13 +10,10 @@ import {faWifi} from "@fortawesome/free-solid-svg-icons/faWifi";
 import {faMapLocationDot} from "@fortawesome/free-solid-svg-icons/faMapLocationDot";
 import {faSquareParking} from "@fortawesome/free-solid-svg-icons/faSquareParking";
 import MyFooter from "../Footer/MyFooter";
-import Carusel from "./Slider/Carusel";
 import Sliders from "./Slider";
 import {Col, Row} from "antd";
+import {Link} from "react-router-dom";
 
-import fotoGlowne from "../Assets/img/FotoMobil.jpg";
-import pas from '../Assets/img/razdelitel.png'
-import {motion} from "framer-motion";
 
 
 const roomsDescriptions = [
@@ -61,15 +58,7 @@ const Content = () => {
     return (
         <Fragment>
             <Sliders/>
-            <div className={classes.GlowneFoto}>
-                <div className={classes.fotoGlowne}>
-                    <img src={fotoGlowne}/>
-                    <h2>Witamy drogi gościu</h2>
-                    <h3>BAłANDÓWKA - to twoje przytulne
-                        miejsce wypoczynku w sercu Tatr</h3>
-                    <img className={classes.pas} src={pas}/>
-                </div>
-            </div>
+
             <Row className={classes.tempRow5} justify="center">
                 <Col span={24}>
                     <div className={classes.titles}><h2>pokoje</h2></div>
@@ -93,8 +82,8 @@ const Content = () => {
 
             </Row>
             <div className={classes.btn}>
-                <Button onClick={event => window.location.href = 'https://natashahatrum.github.io/rooms'} variant="secondary">Zobacz całą
-                    ofertę</Button>
+             <Link to='/rooms'>   <Button variant="secondary">Zobacz całą
+                 ofertę</Button></Link>
             </div>
             <Row className={classes.tempRow4}>
                 <Col span={24}>
